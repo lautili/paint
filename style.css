@@ -1,0 +1,43 @@
+div{
+    border: solid black 1px;
+}
+.paint{
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(8, 1fr);
+    margin: 30px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.paint > *{
+    width: 30px;
+    height: 30px;
+}
+.colores{
+    display: flex;
+}
+.colores > * {
+    width: 50px;
+    height: 50px;
+}
+.rojo{
+    background: red;
+}
+.azul{
+    background: blue;
+}
+.amarillo{
+    background: yellow;
+}
+.verde{
+    background: green;
+}
+.negro{
+    background: black;
+}
+.blanco{
+    background: white;
+}
